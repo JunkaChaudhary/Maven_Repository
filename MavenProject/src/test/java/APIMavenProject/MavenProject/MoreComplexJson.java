@@ -11,12 +11,14 @@ public class MoreComplexJson
 	public static void main(String[] args) {
 		
 		JSONObject innerobj1 = new JSONObject();
+		innerobj1.put("Type", "Primary");
 		innerobj1.put("Floor", "23");
 		innerobj1.put("Building", "Antriksh Heights");
 		innerobj1.put("Sector", "84");
 		innerobj1.put("City", "Gurgaon");
 		
 		JSONObject innerobj2 = new JSONObject();
+		innerobj2.put("Type", "Secondary");
 		innerobj2.put("Floor", "12");
 		innerobj2.put("Building", "Antriksh Homes");
 		innerobj2.put("Sector", "25");

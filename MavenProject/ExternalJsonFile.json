@@ -1,0 +1,22 @@
+{
+  "Designation": "Engineer",
+  "firstname": "{{firstname}}",
+  "Address": [
+    {
+      "Building": "Antriksh Heights",
+      "Floor": "23",
+      "Type": "Primary",
+      "Sector": "84",
+      "City": "Gurgaon"
+    },
+    {
+      "Building": "Antriksh Homes",
+      "Floor": "12",
+      "Type": "Secondary",
+      "Sector": "25",
+      "City": "Chandigarh"
+    }
+  ],
+  "lastname": "{{lastname}}",
+  "id": "{{id}}"
+}
