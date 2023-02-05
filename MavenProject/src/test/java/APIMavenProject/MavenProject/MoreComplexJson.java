@@ -1,5 +1,8 @@
 package APIMavenProject.MavenProject;
 
+//purpose-----------hit the Post Request
+//body data --------- more complex json(array json) using org.json
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 import io.restassured.http.ContentType;

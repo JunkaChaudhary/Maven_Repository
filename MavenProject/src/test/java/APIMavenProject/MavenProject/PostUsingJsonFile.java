@@ -1,5 +1,8 @@
 package APIMavenProject.MavenProject;
 
+//purpose-----------hit the Post Request
+//body data --------- complex json(obj inside obj) using org.json
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -19,10 +22,10 @@ public class PostUsingJsonFile {
 	
 	public static void main(String[] args) throws FileNotFoundException 
 	{
-		File f = new File("../MavenProject/ExternalJsonFile.json");
-		FileReader fr = new FileReader(f);
-		JSONTokener jtokener = new JSONTokener(fr);
-		JSONObject j = new JSONObject(jtokener);
+		File f = new File("../MavenProject/ExternalJsonFile.json"); //connection establishment with json file
+		FileReader fr = new FileReader(f);   //for reading streams of characters or character files
+		JSONTokener jtokener = new JSONTokener(fr); // for reading json data from stream created in above step
+		JSONObject j = new JSONObject(jtokener); 
 		
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter the id: ");
