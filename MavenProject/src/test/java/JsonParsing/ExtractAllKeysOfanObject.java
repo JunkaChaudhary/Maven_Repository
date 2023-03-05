@@ -24,7 +24,7 @@ public class ExtractAllKeysOfanObject
 		JSONObject obj=array.getJSONObject(2);
 		Set<String> allkeys=obj.keySet();
 		
-		for(String keyname : allkeys)  //strong the key name in the keyname variable 
+		for(String keyname : allkeys)  //store the key names in the keyname variable 
 		{
 			System.out.println("Key name is "+keyname);
 			System.out.println("Key value is: "+obj.get(keyname));

@@ -20,7 +20,7 @@ public class ParsingMultipleObjects
 		.get("http://localhost:3000/APIFolks");
 		
 		JSONArray array = new JSONArray(res.asString());
-		//int L= array.length();
+		//int L= array.length();    //to execute the loop till the length of array
 		for(int i=0; i<=15; i++)
 		{
 			JSONObject obj = array.getJSONObject(i);
