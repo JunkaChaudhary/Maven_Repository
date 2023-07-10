@@ -20,11 +20,16 @@ public class ParsingSingleObject
 		.when()
 		.get("http://localhost:3000/APIFolks");
 		
-		JSONArray array = new JSONArray(res.asString());
+		JSONArray array= new JSONArray();
+		JSONObject obj= array.getJSONObject(3);
+		System.out.println(obj.get("First Name"));
+		
+		
+		/*JSONArray array = new JSONArray(res.asString());
 		JSONObject obj = array.getJSONObject(0);
 		System.out.println("Value of Id for 1st Json Object:");
 		System.out.println(obj.get("id"));
-		
+		*/
 	}
 
 }

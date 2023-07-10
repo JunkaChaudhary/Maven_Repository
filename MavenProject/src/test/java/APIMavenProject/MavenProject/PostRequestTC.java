@@ -6,7 +6,7 @@ import io.restassured.response.Response;
 import static io.restassured.RestAssured.*;
 
 //purpose-----------hit the Post Request
-//body data --------- simple json using org.jso
+//body data --------- simple json using org.json
 
 public class PostRequestTC {
 

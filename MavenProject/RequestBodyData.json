@@ -1,0 +1,13 @@
+    {
+      "First Name": "Sanju",
+      "Last Name": "Chaudhary",
+      "Designation": "Senior Engineer",
+      "Course": "API Testing",
+      "Address": {
+        "Building": "Antriksh Heights",
+        "Floor": "23",
+        "Sector": "84",
+        "City": "Gurgaon"
+      },
+      "id": "{{id}}"
+    }
